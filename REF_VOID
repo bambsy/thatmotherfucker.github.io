@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+<!-- character encoding, always first -->
+  <meta charset="utf-8"> <!--empty or void tag (no closing tag) -->
+  <style> 
+  /* embedded/internal style sheet */
+  
+  body {
+    background-color: #3333cc;
+    /* #rgb: 0123456789abcdf ; about 256 web-safe colors */
+  }
+  
+  div {
+  background-color: #9999ff;
+  padding: 1em 1em 1em 1em; /*inside the box, top. right, bottom, left starts clockwise + can only be postitive*/
+  border-top: 1px solid #bf00ff;
+  border-bottom: 1px solid #bf00ff;
+  margin: 1em 1em 1em 1em; /* 1em= 16px  + margin pushes off of the page for an element + can be negative*/
+  }
+  
+  h1 {
+  font-family: serif, sans-serif, monospace, cursive, fantasy;
+  font-family: Georgia, Times "Times New Roman", serif;
+  font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+  font-family: "Courier New", Courier, Monospace;
+  font-family: cursive;
+  font-family: fantasy;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  }
+  
+  p {
+  margin-top: 0;
+  margin-bottom: 0;
+  }
+  </style>
+  <!--mobile friendly tag -->
+  <meta name="viewport" content="width=device-width">
+  <title>Markup & Style / Recipe</title>
+  <meta name="author" content="Courtney Ryan">
+</head>
+
+<div>
+  <h1>Hello World</h1>
+  <p>This is a paragraph.</p>
+</div>
+
+
+
+
+</html>
