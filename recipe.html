@@ -6,20 +6,29 @@
     <meta name="author" content="Courtney Ryan">
     <style>
       html {
-  font: 100%/1 sans-serif; /* the /1 is the line-height, could also type in 'normal'*/
+  font: 130%/1 sans-serif; /* the /1 is the line-height, could also type in 'normal'*/
 
   }
 
 body {
-  margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 100px;
-    margin-left: 100px;
+  width: 90%; /* overall width*/
+  max-width: 90em; /*max width*/
+  margin: auto, 50em; /* top and bottom, right and left */
   }
+
+/* Break point (for line length) 1 / small */
+@media (min-width: 50em) {
 
 body {
   font-size: 100%;
   }
+
+main{
+  margin: 0 8%;
+}
+
+}
+
 
 h1,
 h2,
@@ -42,28 +51,39 @@ p {
 1/5: .28, .56, .84, 1.12, 1.4 */
 
 p {
-font: "Baskerville", sans-serif;
+font: .8em "Baskerville", sans-serif;
   text-align:left;
 }
 
 ul {
-  font: "Baskerville";
+  font: .8em "Baskerville";
   text-align:left;
+}
+
 }
 
 /* headings / foundation */
 
+.star {
+font: 1em "Impact", sans-serif;
+}
+
+}
+
 h1 {
   font: "Impact", serif;
+  font-size: 3em;
 }
 /* 1.68em + .28 = 1.96 / 1.68 = 1.16666667 */
 h2 {
-  font: "Impact", serif;
+  font: 1em/1.4 "Impact", serif;
+  font-size: 1em;
 
 }
 
 h5 {
-  font: "Impact", serif;
+  font: 1em/1.4 "Impact", serif;
+  font-size: .6em;
 text-align:left;
 }
 
