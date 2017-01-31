@@ -16,26 +16,23 @@ body {
   }
 
 body {
-  font-size: 110%;
+  font-size: 100%;
   }
 
 
 p {
 margin: 1em 4em 1em 5em;
-   margin-right: 10em;
   }
 
 
 p {
 font: .8em "Baskerville", sans-serif;
   text-align:left;
-
 }
 
 ul {
   font: .8em "Baskerville";
   text-align:left;
-    margin: 1em 1em 1em 3em;
 }
 
 
@@ -53,11 +50,30 @@ h2 {
   font-weight: bold;
 }
 
+h1{
+  text-transform: uppercase;
+}
+ /* class selector */
+/* reusable */
+
+.all-caps {
+  text-transform: uppercase;
+}
+/* . stands for 'class' */
+
+#ingredients {
+  background-color: #219B00;
+  color: #FFFFFF;
+  padding: 1em;
+  border-style: dashed;
+  margin-right: 10em ;
+}      
+      
 h5 {
   font: 1em/1.4 "Futura", serif;
   font-size: .6em;
 text-align:left;
-  margin: 1em 4em 4em 1em;
+  margin: 1em 4em 4em 7em;
 }
 
 body {
@@ -80,10 +96,11 @@ Having some friends over for a night of laying low, but not too low? Want to liv
 Cannabutter is the lovechild of butter and Cannabis, used to make edibles. With just a few easy steps you can infuse THC into butter, then bake your favorite sweets (or meals) that will get you high. Perfect for the holidays and special occasions. Don't worry, it's hard to f*** up.
 </p>
      </section>
-<section>
+
+  <section id="ingredients">
   <h2>What you need</h2>
   <ul>
-    <li>¼ ounch finely ground cannabis buds</li>
+    <li>¼ ounce finely ground cannabis buds</li>
     <li>½ cup <span class="star">*</span>unsalted butter</li>
     <li> Medium saucepan</li>
     <li> Wooden ladle</li>
