@@ -1,87 +1,104 @@
-html {
-  font: 100%/1 sans-serif; /* the /1 is the line-height, could also type in 'normal'*/
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
 
-  }
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+    }
 
-body {
-  width: 90%; /* overall width*/
-  max-width: 60em; /*max width*/
-  margin: 0 auto; /* top and bottom, right and left */
-  }
-
-article {
-  width: 90%
-  margin: auto;
-}
-/* Break point (for line length) 1 / small */
-@media (min-width: 50em) {
-
-body {
-  font-size: 107.14%;
-  }
-
-main{
-  margin: 0 8%;
-}
-
-}
-
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin-top: .5em;
-  margin-bottom: .5em;
-  }
-
-/* typographic styles */
-
-/* paragraph / foundation */
-
-/* 1.4 measure
-1/2: .7, 1.4
-1/4: .35, .7, 1.05, 1.4
-1/5: .28, .56, .84, 1.12, 1.4 */
-
-p {
-font: .8em "Baskerville", sans-serif;
-}
-
-ul {
-  font: .8em "Baskerville";
-}
-
-}
-
-/* headings / foundation */
-
-.star {
-font: 1.5em "Impact", sans-serif; 
-}
-
-}
-
-h1 {
-  font: 1em/1.4 "Impact", sans-serif;
-}
-/* 1.68em + .28 = 1.96 / 1.68 = 1.16666667 */
-h2 {
-  font: 1em/1.4 "Impact", serif;
+    
+    html {
+      font: 130%/1 sans-serif; /* the /1 is the line-height, could also type in 'normal'*/
+      }
+    body {
+      width: 90%; /* overall width*/
+      max-width: 90em; /*max width*/
+      }
+    body {
+      font-size: 100%;
+      }
+    p {
+      margin: 1em 4em 1em 5em;
+      }
+    p {
+      font: .8em "Baskerville", sans-serif;
+      text-align:left;
+    }
+    ul {
+      font: .8em "Baskerville";
+      text-align:left;
+    }
+    h1 {
+      font: 1em/1.4"Futura", serif;
+      font-size: 3em;
+      text-transform: uppercase;
+    }
+    h2 {
+      font: 1em/1.4 "Futura", serif;
+      font-size: 1em;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      font-weight: bold;
+    }
+    h1{
+      text-transform: uppercase;
+    }
+     /* class selector */
+    /* reusable */
+    .all-caps {
+      text-transform: uppercase;
+    }
+    /* . stands for 'class' */
+    #ingredients {
+      background-color: #219B00;
+      color: #FFFFFF;
+      padding: 1em;
+      border-style: dashed;
+      margin-right: 10em ;
+    }      
+    #results {
+      background-color: #219B00;
+      color: #FFFFFF;
+      padding: 1em;
+      border-style: dashed;
+      margin-right: 10em ;
+    }
+      
+    h5 {
+      font: 1em/1.4 "Futura", serif;
+      font-size: .6em;
+     text-align:left;
+      margin: 1em 4em 4em 7em;
+    }
+    body {
+      background-color: #e6fff5;
+    }
+      
+    img {
+      width: 25%;
+      height: 25%;
+    }      
+    hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    color: #000000;
   
-}
-
-h5 {
-  font: 1em/1.4 "Impact", serif;
-  font-size: .7em
-}
-
-body {
-    background-color: #e6fff5;
-}
-
-
-
+    } 
