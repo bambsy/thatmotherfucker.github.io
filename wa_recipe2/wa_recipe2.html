@@ -5,41 +5,13 @@
   <meta name="viewport" content="width=device-width">
   <title>Cannabutter Recipe</title>
   <style>
+  
+  body {
+    max-width: 60em;
+    margin: 0 auto;
+    }
+    
 /* Style for desktop / laptop */
-@media only screen  and (min-width : 60em) {
-.float li{ /* Once at 60em, this is the layout that will take over */
-    float: left;
-    width: 20em;
-    }
-hr {
-visibility: hidden;
-}
-ol li {
-    font: 1em "Century Gothic", sans-serif;
-    list-style: none;
-    letter-spacing:.01em;
-    }
-ul li {
-    margin-top: .3em;
-    margin-bottom: .3em;
-    letter-spacing:.05em;
-    }
-#topbox {
-  background-color: #fff;
-  color: black;
-  padding: .3em;
-}      
-
-}
-
-
-
-
-
-}
-
-
-
   hr { 
     display: block;
     margin-top: 2em;
@@ -68,12 +40,12 @@ ul li {
       font: 2em "Futura", sans-serif;
       letter-spacing:.05em;
     }
-  #firstlist ul {
+   ul {
       font: 1em "Futura", sans-serif;
       list-style: none;
       letter-spacing:.05em;
     }
- #firstlist ul li {
+  ul li {
     margin-top: .5em;
     margin-bottom: .5em;
     letter-spacing:.05em;
@@ -87,7 +59,7 @@ ul li {
       line-height: 1.3em;
       
     }
-  #secondlist ul li {
+  ol li {
     font: 1em "Century Gothic", sans-serif;
     list-style: none;
     margin-top: 1em;
@@ -114,11 +86,76 @@ ul li {
   background-color: #fff;
   color: black;
   padding: .5em;
+}  
+
+@media only screen and (min-width: 60em) {
+
+  #ingredients {
+    float: left;
+    width: 25%;
+    background: #ccf;
+    }
+  
+  #directions {
+    float: right;
+    width: 60%;
+    background: #ccc;
+    }
+    
+  .back-top {
+    clear: both;
+    }
+    
+    nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1em;
+  }
+    
+    nav li{
+      display: inline;
+      letter-spacing:2em;
+    }
+    
+hr {
+visibility: hidden;
+}
+ul {
+      font: 1em "Futura", sans-serif;
+      list-style: none;
+      letter-spacing:.05em;
+    }
+
+ ul li {
+    font: 1em "Century Gothic", sans-serif;
+    list-style: none;
+    letter-spacing: .01em;
+    }
+ol {
+  font: 1em "Futura", sans-serif;
+  list-style: none;
+  letter-spacing: .05em;
+  margin-top: 0;
+  margin-bottom: 0em;
+  padding: 0em;
+}
+ol li {
+    font: 1em "Century Gothic", sans-serif;
+    list-style: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    letter-spacing: .05em;
+    }
+#topbox {
+  background-color: #fff;
+  color: black;
+  padding: .3em;
 }      
+
+}    
   </style>
 </head>
-<body>
-  <section id="top">
+<body id="top">
   <nav>
     <ul>
       <li><a href="#ingredients">Ingredients</a></li>
@@ -137,9 +174,9 @@ ul li {
   </section>
   <h1>Easy Cannabutter</h1>
   <h5>Having some friends over for a night of laying low, but not too low? Want to liven up your parents evening, but don't want to be there for it? Maybe you just want to treat yourself; sit back and watch a movie with your favorite sweet-tooth munchie. <strong>It’s <em>always</em> a good time to learn how to make cannabutter!</strong> </h5> 
-  <ul class="float">
+  <div class="float">
   <section id="ingredients">
-   <ul id="firstlist">
+   <ul>
      <li><b>¼ ounce</b> finely ground cannabis buds</li>
      <li><b>½ cup</b> unsalted butter</li>
      <li><b>1 medium</b> saucepan</li>
@@ -149,30 +186,24 @@ ul li {
      <li><b>Air tight <em>resealable</em></b> container</li>
     </ul>
     </section>
-    <section id="directions">
-    <ul id="secondlist">
-    <hr>
+  <section id="directions">
+  
+    <ol>
      <li> Melt butter on low heat in medium saucepan.</li>
-     <hr>
       <li>Mix ground buds into melted butter a bit at a time, stir in between.</li> 
-      <hr>
       <li>Simmer on low heat for 45 mins, stir frequently. You should start to see tiny bubbles forming on surface, the smell means its working!</li>
-      <hr>
 <li>Strain butter with metal strainer into resealable container, this way you don't have ground bud in the final product. </li>
-<hr>
 <li>Use spoon to squeeze all cannabutter from ground bud in metal strainer.</li>
-<hr>
 <li>Most prefer to put their cannabutter into the fridge <b>(25-30 min)</b> so it forms a more solid block. <u>Depending on your recipe and when you plan to make it, this step is optional.</u></li>
-<hr>
 <li> Your cannabutter should look green and smell different from regular butter, but depending on the butter you use, it may have a deeper, or lighter, green tint to it. </li>
     </ol>
     </section>
   </div>
-  </ul>
-   <nav>
-    <ul>
+  
+
+    <ul class="back-top">
       <li><a href="#top">Top ⇪</a></li>
     </ul>
-  </nav>
+    
 </body>
 </html>
