@@ -6,16 +6,38 @@
   <title>Cannabutter Recipe</title>
   <style>
 /* Style for desktop / laptop */
-@media only screen  and (min-width : 1224px) {
+@media only screen  and (min-width : 60em) {
+.float li{ /* Once at 60em, this is the layout that will take over */
+    float: left;
+    width: 20em;
+    }
+hr {
+visibility: hidden;
+}
+ol li {
+    font: 1em "Century Gothic", sans-serif;
+    list-style: none;
+    letter-spacing:.01em;
+    }
+ul li {
+    margin-top: .3em;
+    margin-bottom: .3em;
+    letter-spacing:.05em;
+    }
+#topbox {
+  background-color: #fff;
+  color: black;
+  padding: .3em;
+}      
 
 }
 
-/* Smartphones */
-@media only screen and (max-width : 320px) {
+
 
 
 
 }
+
 
 
   hr { 
@@ -46,12 +68,12 @@
       font: 2em "Futura", sans-serif;
       letter-spacing:.05em;
     }
-    ul {
+  #firstlist ul {
       font: 1em "Futura", sans-serif;
-      list-style:none;
+      list-style: none;
       letter-spacing:.05em;
     }
-    ul li {
+ #firstlist ul li {
     margin-top: .5em;
     margin-bottom: .5em;
     letter-spacing:.05em;
@@ -65,7 +87,7 @@
       line-height: 1.3em;
       
     }
-    ol li {
+  #secondlist ul li {
     font: 1em "Century Gothic", sans-serif;
     list-style: none;
     margin-top: 1em;
@@ -115,9 +137,9 @@
   </section>
   <h1>Easy Cannabutter</h1>
   <h5>Having some friends over for a night of laying low, but not too low? Want to liven up your parents evening, but don't want to be there for it? Maybe you just want to treat yourself; sit back and watch a movie with your favorite sweet-tooth munchie. <strong>It’s <em>always</em> a good time to learn how to make cannabutter!</strong> </h5> 
-  
+  <ul class="float">
   <section id="ingredients">
-   <ul>
+   <ul id="firstlist">
      <li><b>¼ ounce</b> finely ground cannabis buds</li>
      <li><b>½ cup</b> unsalted butter</li>
      <li><b>1 medium</b> saucepan</li>
@@ -128,7 +150,7 @@
     </ul>
     </section>
     <section id="directions">
-    <ol>
+    <ul id="secondlist">
     <hr>
      <li> Melt butter on low heat in medium saucepan.</li>
      <hr>
@@ -146,6 +168,7 @@
     </ol>
     </section>
   </div>
+  </ul>
    <nav>
     <ul>
       <li><a href="#top">Top ⇪</a></li>
