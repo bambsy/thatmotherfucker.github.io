@@ -1,0 +1,173 @@
+  body {
+    max-width: 60em;
+    background-color: #e6fff5;
+    padding: 0 1em;
+    margin: 0 auto;
+    }
+    
+/* Style for desktop / laptop */
+  hr { 
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: .5px;
+} 
+  
+ dl{
+ display: inline-block; /* change box model display: display in a line (as text, left to right), but retain block properties (width/height) */
+  font: 1em "Century Gothic", sans-serif;
+  padding-bottom: 1em;
+  padding-left: 1.2em;
+  border-left: 1px solid #fff;
+  margin-right: 1.5em;
+  margin-left: .4em;
+  letter-spacing:.05em;
+ }
+
+    h1 {
+      font: 2em "Futura", sans-serif;
+      letter-spacing:.05em;
+    }
+   ul {
+      font: 1em "Futura", sans-serif;
+      list-style: none;
+      letter-spacing:.05em;
+    }
+  ul li {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    letter-spacing: .05em;
+    }
+    
+    p {
+      font: 1em/1.35 "Century Gothic", Tahoma, sans-serif;
+    }
+
+  ol li {
+    font: 1em "Century Gothic", Tahoma, sans-serif;
+    list-style: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    letter-spacing: .01em;
+    line-height: 1.3em;
+    }
+    
+  nav ul {
+  list-style: none;
+  padding: 1.2em 0;
+  margin: 0;
+  }
+    
+    nav li{
+      display: inline;
+      letter-spacing:.05em;
+      margin: 0 0.5em;
+    }
+    
+    nav a,
+    .back-top a {
+    color: #666;
+    }
+    
+    nav a :hover,
+    .back-top a:hover {
+    color: #000;
+    }
+    
+    img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    }
+    
+    header figure {
+    text-align: center;
+    background-color: #ffffcc;
+    padding: 1em;
+    margin: 0 -1em;
+}  
+
+header figure figcaption {
+  text-align:left;
+  }
+  
+.underline {
+  text-decoration: underline;
+}
+
+section {
+  padding-top: 1.2em;
+  }
+  
+section h2 {
+  font: normal 1.2em "Century Gothic", Tahoma, sans-serif;
+  letter-spacing: 0.05em;
+  margin-top: 0;
+}
+
+.back-top {
+  clear:both;
+  }
+
+@media only screen and (min-width: 60em) {
+
+  #ingredients {
+    float: left;
+    width: 25%;
+    }
+  
+  #directions {
+    float: right;
+    width: 60%;
+    }
+    
+    nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1em;
+  }
+    
+    nav li{
+      display: inline;
+      letter-spacing:2em;
+    }
+    
+hr {
+visibility: hidden;
+}
+ul {
+      font: 1em "Futura", sans-serif;
+      list-style: none;
+      letter-spacing:.05em;
+    }
+
+ ul li {
+    font: 1em "Futura", sans-serif;
+    list-style: none;
+    letter-spacing: .01em;
+    }
+ol {
+  font: 1em "Futura", sans-serif;
+  list-style: none;
+  letter-spacing: .05em;
+  margin-top: 0;
+  margin-bottom: 0em;
+  padding: 0em;
+}
+ol li {
+    font: 1em "Century Gothic" Tahoma, sans-serif;
+    list-style: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    letter-spacing: .05em;
+    }
+#topbox {
+  background-color: #fff;
+  color: black;
+  padding: .3em;
+}      
+
+}    
