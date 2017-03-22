@@ -1,0 +1,187 @@
+body {
+    max-width: 60em;
+    padding: 0 1em;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+
+    }
+
+section {
+padding-top: 1em;
+}
+
+h1 {
+ font: 43pt "Futura", sans-serif;
+ text-align: right;
+ font-weight: bold;
+ letter-spacing: 3px;
+}
+
+.heading {
+  color: #ff3366;
+}
+h2,
+h3 {
+  font: 24pt "Baskerville", serif;
+  font-style: italic;
+}
+
+h4 {
+font: 15pt "Baskerville", serif;
+letter-spacing: .5px;
+font-style: italic;
+}
+
+h5 {
+  text-align: center;
+}
+
+ ul li {
+    font: 13pt "Baskerville", serif;
+    list-style: none;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0em;
+    padding: 0em;
+    letter-spacing: .5px;
+    color: #ff3366;
+    }
+ nav li{
+    color: #ff3366;
+    }
+    
+    nav li :hover {
+    color: #ff3366;
+    }
+
+
+p {
+  font: 13pt "Baskerville", serif;
+  letter-spacing: .5px;
+}
+
+.quote {
+
+}
+
+.style1 {
+border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.style2 {
+
+  height: 2px;
+  color: black;
+  background-color: black;
+}
+
+figure {
+width: 33%;
+float: left;
+margin: 0;
+padding: .3em;
+
+}
+
+figcaption {
+padding: .3em;
+font-size: 1em;
+font-family: "Baskerville", serif;
+letter-spacing: .06em;
+text-align: center;
+
+}
+
+
+@media only screen and (max-width: 950px) {
+
+body {
+    max-width: 950px;
+    padding: 0em .5em;
+    margin: 0 auto;
+    }
+
+section {
+padding-top: .5em;
+}
+
+h1 {
+ font: 22pt "Futura", sans-serif;
+ text-align: right;
+ font-weight: bold;
+ letter-spacing: 3px;
+}
+
+.heading {
+  color: #ff3366;
+}
+h2,
+h3 {
+  font: 20pt "Baskerville", serif;
+  font-style: italic;
+}
+
+h5 {
+  text-align: center;
+}
+
+ ul li {
+    font: 14pt "Baskerville", serif;
+    list-style: none;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0em;
+    padding: 0em;
+    letter-spacing: .5px;
+    color: #ff3366;
+    }
+
+p {
+  font: 15pt "Baskerville", serif;
+  letter-spacing: .7px;
+}
+
+.quote {
+
+}
+
+.style1 {
+border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.style2 {
+
+  height: 2px;
+  color: black;
+  background-color: black;
+}
+
+figure {
+float: none;
+width: auto;
+
+}
+
+figcaption {
+padding: .1em;
+font-size: 1em;
+font-family: "Baskerville", serif;
+letter-spacing: .06em;
+text-align: left;
+width: 19em;
+
+}
+
+
+
+}
+
+
+
+
