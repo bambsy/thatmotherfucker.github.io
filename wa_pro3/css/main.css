@@ -60,6 +60,7 @@ h5 {
 p {
   font: 13pt "Baskerville", serif;
   letter-spacing: .5px;
+  line-height: 2em;
 }
 
 .quote {
@@ -142,8 +143,10 @@ h5 {
     }
 
 p {
-  font: 15pt "Baskerville", serif;
+  font: 14pt "Baskerville", serif;
   letter-spacing: .7px;
+  line-height: 1.5em;
+  margin: 2em;
 }
 
 .quote {
