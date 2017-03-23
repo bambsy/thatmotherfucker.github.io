@@ -46,14 +46,16 @@ h5 {
     letter-spacing: .5px;
     color: #ff3366;
     }
- nav li{
-    color: #ff3366;
+ 
+ nav a,
+    .history a {
+    color: #66001a;
     }
     
-    nav li :hover {
+    nav a:hover,
+    .history a:hover {
     color: #ff3366;
     }
-
 
 p {
   font: 13pt "Baskerville", serif;
