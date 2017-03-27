@@ -3,6 +3,7 @@ body {
     padding: 0 1em;
     margin: 0 auto;
     scroll-behavior: smooth;
+    background-image: url("../img/stripe.jpg");
 
     }
 
