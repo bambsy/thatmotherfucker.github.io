@@ -6,8 +6,13 @@ body {
     background-image: url("../img/stripe.png");
     background-repeat: repeat-y;
     background-position: center top;
-
     }
+    
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  }
 
 section {
 padding-top: 1em;
@@ -85,23 +90,35 @@ border: 0;
 }
 
 figure {
-width: 33%;
-float: left;
-margin: 0;
+!float: left;
+margin: 0 auto;
 padding: .3em;
 
 }
+
+figure img {
+  width: 100%;
+  max-width: auto;
+  }
 
 figcaption {
 padding: .3em;
 font-size: 1em;
 font-family: "Baskerville", serif;
 letter-spacing: .06em;
-text-align: center;
 
 }
 
+@media (min-width: 30em) {
+  
+figure {
+  float: left;
+  width: 40%;
+  margin: 3em 1em 0 0;
+  }
 
+
+/* 
 @media only screen and (max-width: 950px) {
 
 body {
@@ -189,6 +206,7 @@ width: 19em;
 
 
 }
+ */
 
 
 
