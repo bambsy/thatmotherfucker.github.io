@@ -1,0 +1,13 @@
+  !figure {
+    margin: 0;
+    }
+  
+  !img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    }
+    
+  !#fig-1 {
+    width: 50%;
+    }
