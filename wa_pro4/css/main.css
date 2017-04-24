@@ -35,7 +35,7 @@
 
 #banner {
   background-color: #ffffff;
-  background-image: url("../img/try3.svg");
+  background-image: url("img/try3.svg");
   background-repeat: repeat; /* repeat-x, repeat, no-repeat */
   background-position: left top;
   background-size: 100%; /* don't use unless your fall back image size is acceptable */
