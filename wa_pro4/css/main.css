@@ -1,8 +1,14 @@
-   figure {
+     figure {
     margin: 0;
     }
   
+  figcaption {
+  padding: .3em;
+  font-size: 1em;
+  font-family: "Baskerville", serif;
+  letter-spacing: .06em;
 
+}
   
   img {
     width: auto;
@@ -17,6 +23,8 @@
     body {
     scroll-behavior: smooth;
     margin-top: 4em;
+    margin-left: 2em;
+    margin-right: 2em;
     }
     
 .max-width {
@@ -26,23 +34,23 @@
   }
 
 #banner {
-  background-color: #ef4f50;
-  background-image: url("../img/wallpaper-tile.svg");
+  background-color: #ffffff;
+  background-image: url("../img/try3.svg");
   background-repeat: repeat; /* repeat-x, repeat, no-repeat */
   background-position: left top;
-  background-size: 20%; /* don't use unless your fall back image size is acceptable */
-  padding: 10% 0 100%;
+  background-size: 100%; /* don't use unless your fall back image size is acceptable */
+  padding: 7% 0 20%;
   }
 
 #banner h1 {
-  color: #fff;
+  color: #000;
   margin-top: 0;
   margin-bottom: 0;
   }
 
     
     h1 {
-    font: Futura, "Trebuchet MS", Arial, sans-serif;
+    font: "Baskerville", sans-serif;
     margin: 0, 0;
     }
     
