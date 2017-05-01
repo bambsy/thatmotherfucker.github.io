@@ -1,3 +1,10 @@
+      body {
+    scroll-behavior: smooth;
+    margin: 0;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    }
+ 
   figure {
     margin: 0;
     }
@@ -30,12 +37,7 @@
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
     
-    body {
-    scroll-behavior: smooth;
-    margin: 0;
-    margin-top: 2em;
-    margin-bottom: 4em;
-    }
+
     
 .max-width {
   max-width: 60em;
@@ -101,9 +103,20 @@ margin: none;
 }
 
 .style2 {
-height: 2px;
-color: black;
-background-color: black;
-margin-top: 1em;
-margin-bottom: 1em;
+
+  height: 2px;
+  color: black;
+  background-color: black;
+}
+
+@media only screen and (min-width: 540px) {
+
+img {
+    width: 900px;
+    max-width: 100%;
+    height: auto;
+    }
+
+
+
 }
