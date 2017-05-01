@@ -104,5 +104,6 @@ margin: none;
 height: 2px;
 color: black;
 background-color: black;
-padding: 1em;
+margin-top: 1em;
+margin-bottom: 1em;
 }
