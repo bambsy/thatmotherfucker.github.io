@@ -1,4 +1,4 @@
-      body {
+     body {
     scroll-behavior: smooth;
     margin: 0;
     margin-top: 2em;
@@ -117,6 +117,31 @@ img {
     height: auto;
     }
 
-
-
+figcaption {
+  margin: 0;   /*flexible img */
+  font-size: 18px;
+  font-family: "Baskerville", serif;
+  letter-spacing: .06em;
+  background-color: #edb0b2;
+  border-left-color: #000000;
+  border-left: 6px
+  border-radius: 5px;
+  text-align: center;
 }
+
+p {
+  background-color: #d1e4ed;
+  border-radius: 5px;
+  border-left: 6px solid;
+  border-left-color: #000000;
+  text-align: center;
+  }
+
+figure {
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+
+
