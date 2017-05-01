@@ -102,6 +102,7 @@ margin: none;
 
 .style2 {
 height: 2px;
-  color: black;
-  background-color: black;
+color: black;
+background-color: black;
+  margin: 1em;
 }
