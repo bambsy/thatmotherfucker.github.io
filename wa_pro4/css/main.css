@@ -100,4 +100,8 @@ padding: .5em;
 margin: none;
 }
 
-
+.style2 {
+height: 2px;
+  color: black;
+  background-color: black;
+}
