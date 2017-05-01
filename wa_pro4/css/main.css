@@ -118,7 +118,8 @@ img {
     }
 
 figcaption {
-  margin: 0;   /*flexible img */
+  margin-left: auto;  /*flexible img */
+  margin-right: auto;
   font-size: 24px;
   font-family: "Baskerville", serif;
   letter-spacing: .06em;
@@ -148,3 +149,7 @@ font-size: 30px;
 }
 
 
+
+
+
+}
