@@ -119,7 +119,7 @@ img {
 
 figcaption {
   margin: 0;   /*flexible img */
-  font-size: 18px;
+  font-size: 24px;
   font-family: "Baskerville", serif;
   letter-spacing: .06em;
   background-color: #edb0b2;
@@ -135,6 +135,7 @@ p {
   border-left: 6px solid;
   border-left-color: #000000;
   text-align: center;
+  font-size: 24;
   }
 
 figure {
@@ -142,6 +143,8 @@ figure {
     margin-right: auto;
     }
 
-
+h1 {
+font-size: 30px;
+}
 
 
