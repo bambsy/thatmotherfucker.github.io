@@ -1,14 +1,15 @@
      body {
     scroll-behavior: smooth;
     margin: 0;
-    margin-top: 2em;
+    margin-top: 4em;
     margin-bottom: 4em;
     }
- 
+
   figure {
     margin: 0;
+    text-align: center;
     }
-  
+
   figcaption {
   margin: 0;   /*flexible img */
   font-size: 18px;
@@ -19,28 +20,29 @@
   border-left: 6px
   border-radius: 5px;
 }
-  
+
      p {
   background-color: #d1e4ed;
   border-radius: 5px;
   border-left: 6px solid;
   border-left-color: #000000;
+  margin-top: 2em;
+  margin-bottom: 2em;
   }
-  
+
   img {
     width: auto;
     max-width: 100%;
     height: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
     }
-    
+
     img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
-    
-figure {
-text-align: center;
-}
-    
+
+
 .max-width {
   max-width: 60em;
   padding: 0 1em;
@@ -62,12 +64,12 @@ text-align: center;
   margin-bottom: 0;
   }
 
-    
+
     h1 {
     font: "Baskerville", sans-serif;
     margin: 0, 0;
     }
-    
+
     ul {
     list-style-type: none;
     margin: 0;
@@ -114,21 +116,20 @@ margin: none;
 @media only screen and (min-width: 540px) {
 
 img {
-    width: 900px;
+    width: 450px;
     max-width: 100%;
     height: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
     }
 
 figcaption {
   margin-left: auto;  /*flexible img */
   margin-right: auto;
-  font-size: 24px;
+  font-size: 18px;
   font-family: "Baskerville", serif;
   letter-spacing: .06em;
   background-color: #edb0b2;
-  border-left-color: #000000;
-  border-left: 6px
-  border-radius: 5px;
   text-align: center;
 }
 
@@ -138,7 +139,7 @@ p {
   border-left: 6px solid;
   border-left-color: #000000;
   text-align: center;
-  font-size: 24px;
+  font-size: 20px;
   }
 
 figure {
@@ -146,25 +147,20 @@ margin: 0, auto;
     }
 
 h1 {
-font-size: 35px;
+font-size: 40px;
 }
 
      body {
     scroll-behavior: smooth;
     margin-left: 5em;
     margin-right: 5em;
-    margin-top: 2em;
+    margin-top: 4em;
     margin-bottom: 4em;
     }
- 
+    @media only screen and (min-width: 1500px) {
 
+    body {
+    margin-right: 25em;
+    margin-left: 25em;
+    }
 }
-
-@media only screen and (min-width: 1500px) {
-
-body {
-margin-right: 25em;
-margin-left: 25em;
-}
-
-
